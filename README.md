@@ -11,5 +11,6 @@ how to start your local AI
 
 docker compose up 
 
-<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/2b86c116-a331-4b2b-bcfb-a9b2175e243e" />
+<img width="1668" height="930" alt="image" src="https://github.com/user-attachments/assets/42c17c71-1363-4051-82f9-684d17134fd4" />
+
 
