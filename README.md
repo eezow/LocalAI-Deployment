@@ -18,4 +18,7 @@ Browse to your local AI
 
 <img width="1661" height="875" alt="image" src="https://github.com/user-attachments/assets/07cf7eac-782f-4275-817d-698974b0589f" />
 
+Download PHI-3-MINI
+
+<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/5a64b0a1-990e-456e-8d92-4725e9cf931a" />
 
