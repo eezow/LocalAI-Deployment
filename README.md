@@ -22,3 +22,14 @@ Download PHI-3-MINI
 
 <img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/5a64b0a1-990e-456e-8d92-4725e9cf931a" />
 
+
+
+Issues you may Face ' running out of file descriptors."
+
+MAdd to /etc/sysctl.conf (or a file in /etc/sysctl.d/ like 99-localai.conf):textfs.inotify.max_user_watches=524288
+fs.inotify.max_user_instances=512
+fs.inotify.max_queued_events=16384Then sudo sysctl --system to apply.
+
+Also Bump Per-Process Open Files (ulimit)
+Check current: ulimit -n (probably 1024).
+Temporary (current session):textulimit -n 65535Then restart your docker-compose: docker-compose down && docker-compose up -d
