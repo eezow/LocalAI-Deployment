@@ -58,7 +58,7 @@ Restart gateway: openclaw gateway restart
 
 
 ## Contribute & Make It Better
-This is open-source — fork, tweak, PR!
+This is open-source , fork, tweak, PR!
 
 See CONTRIBUTING.md for guidelines.
 
@@ -68,4 +68,4 @@ Ideas welcome:
 - Docker image with pre-loaded models
 - Performance tests on Ryzen vs Mac Mini
 
-Open an issue or PR — let's kill the cloud API tax together!
+Open an issue or PR , let's kill the cloud API tax together!
