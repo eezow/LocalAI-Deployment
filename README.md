@@ -23,6 +23,7 @@ Download PHI-3-MINI
 <img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/5a64b0a1-990e-456e-8d92-4725e9cf931a" />
 
 
+A FEW MOMENTS LATER ....I CHANGED MY MODEL TO GEMMA ..GUYS I NEED PC RESOURCES DONATIONS AT THIS POINT..TOO SLOW
 
 Issues you may Face ' running out of file descriptors."
 
