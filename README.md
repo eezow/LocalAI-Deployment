@@ -33,3 +33,21 @@ fs.inotify.max_queued_events=16384Then sudo sysctl --system to apply.
 Also Bump Per-Process Open Files (ulimit)
 Check current: ulimit -n (probably 1024).
 Temporary (current session):textulimit -n 65535Then restart your docker-compose: docker-compose down && docker-compose up -d
+
+<img width="800" height="868" alt="image" src="https://github.com/user-attachments/assets/2f633740-bd19-4715-a3f8-c35e47309176" />
+
+
+After LocalAI is running:
+Onboard OpenClaw → skip provider → manual config
+Edit ~/.openclaw/openclaw.json:JSON{
+  "providers": {
+    "local": {
+      "baseUrl": "http://127.0.0.1:8080/v1",
+      "apiKey": "",
+      "type": "openai",
+      "model": "gemma-3-4b-it"
+    }
+  },
+  "agent": { "model": "local/gemma-3-4b-it" }
+}
+Restart gateway: openclaw gateway restart
