@@ -35,6 +35,11 @@ Also Bump Per-Process Open Files (ulimit)
 Check current: ulimit -n (probably 1024).
 Temporary (current session):textulimit -n 65535Then restart your docker-compose: docker-compose down && docker-compose up -d
 
+Choose manual config 
+
+<img width="1658" height="908" alt="a" src="https://github.com/user-attachments/assets/104506d7-1832-4aea-8e06-b787de33a76b" />
+
+
 <img width="800" height="868" alt="image" src="https://github.com/user-attachments/assets/2f633740-bd19-4715-a3f8-c35e47309176" />
 
 
