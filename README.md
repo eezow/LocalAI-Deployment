@@ -9,6 +9,8 @@ Full Control: Provides transparency and control over AI operations, addressing c
 
 how to start your local AI
 
+Download gemma-3-4b-it-Q4_K_M.gguf  and place in models/ folder
+
 docker compose up 
 
 <img width="1668" height="930" alt="image" src="https://github.com/user-attachments/assets/42c17c71-1363-4051-82f9-684d17134fd4" />
