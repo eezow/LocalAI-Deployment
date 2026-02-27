@@ -38,6 +38,9 @@ Temporary (current session):textulimit -n 65535Then restart your docker-compose:
 <img width="800" height="868" alt="image" src="https://github.com/user-attachments/assets/2f633740-bd19-4715-a3f8-c35e47309176" />
 
 
+** I HAVENT QUIET SOLVED THE INTERGRATION ISSUE ONLY BECAUSE IM TOO LAZY TO CREATE A TELEGRAM ACCOUNT ...TOO MANY ACCOUNTS AT THIS POINT..ANYONE WHO SOLVES IT PLEASE COMMIT YOUR CHANGES ..POWER OF OPENSOURCE !
+
+
 After LocalAI is running:
 Onboard OpenClaw → skip provider → manual config
 Edit ~/.openclaw/openclaw.json:JSON{
