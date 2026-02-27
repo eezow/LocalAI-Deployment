@@ -55,3 +55,17 @@ Edit ~/.openclaw/openclaw.json:JSON{
   "agent": { "model": "local/gemma-3-4b-it" }
 }
 Restart gateway: openclaw gateway restart
+
+
+## Contribute & Make It Better
+This is open-source — fork, tweak, PR!
+
+See CONTRIBUTING.md for guidelines.
+
+Ideas welcome:
+- Add support for more models (e.g. Qwen2.5-Coder for SA devs)
+- OpenClaw auto-config script
+- Docker image with pre-loaded models
+- Performance tests on Ryzen vs Mac Mini
+
+Open an issue or PR — let's kill the cloud API tax together!
