@@ -45,7 +45,7 @@ Edit ~/.openclaw/openclaw.json:JSON{
     "local": {
       "baseUrl": "http://127.0.0.1:8080/v1",
       "apiKey": "",
-      "type": "openai",
+      "type": "openai / leave blank",
       "model": "gemma-3-4b-it"
     }
   },
